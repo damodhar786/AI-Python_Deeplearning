@@ -27,9 +27,9 @@ print("-" * 63)
 #    Area of Triangle: 20
 #    ```
 
-radius = int(input("Enter Radius of Circle: "))
-base = int(input("Enter Base of a Triangle: "))
-height = int(input("Enter Height of a Triangle: "))
+radius = float(input("Enter Radius of Circle: "))
+base = float(input("Enter Base of a Triangle: "))
+height = float(input("Enter Height of a Triangle: "))
 
 area_of_circle = 3.14 * (radius ** 2)
 area_of_triangle = 0.5 * base * height
@@ -55,7 +55,7 @@ print("-" * 63)
 integer1 = int(input("Enter 1st number: "))
 integer2 = int(input("Enter 2nd number: "))
 
-quotient = int(integer1 / integer2)
+quotient = integer1 // integer2
 remainder = integer1 % integer2
 
 print(f"Quotient: {quotient}")
