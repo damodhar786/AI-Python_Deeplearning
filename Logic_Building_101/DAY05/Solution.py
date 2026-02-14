@@ -38,12 +38,29 @@ print("-" * 65)
 #    - **Output:** **`e is a vowel.`**
 
 vowels = ["a", "e", "i", "o", "u"]
-input = input("Enter a Character: ").lower()
+character = input("Enter a Character: ").lower()
 
-if input in vowels:
-    print(f"{input} is a Vowel")
+if character in vowels:
+    print(f"{character} is a Vowel")
 
 else:
-    print(f"{input} is a Consonant")
+    print(f"{character} is a Consonant")
+
+print("-" * 65)
+
+#------------------------------------------------------------------------------------
+
+# 3. **Write a Program to Find the ASCII Value of a Character:**
+
+#    Write a program that takes a character as input and displays its ASCII value. For example:
+
+#    - **Input:** **`Enter a character: A`**
+#    - **Output:** **`ASCII value of A: 65`**
+
+character = input("Enter a Character: ")
+
+ascii_value = ord(character)
+
+print(f"ASCII value of {character} is {ascii_value}")
 
 
