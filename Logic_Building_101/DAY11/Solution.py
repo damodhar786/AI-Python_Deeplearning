@@ -47,7 +47,22 @@ leap_year_or_not(year)
 
 print("-" * 65)
 
+# ----------------------------------------------------------------------------------------------------------
 
+# 3. **Write a Program to Calculate the Sum of the First N Natural Numbers:**
+
+#    Write a program where the user enters a number **`N`**, and the program calculates the sum of all natural numbers up to **`N`**. For example:
+
+#    - **Input:** **`Enter a number: 5`**
+#    - **Output:** **`The sum of the first 5 natural numbers is 15.`**
+
+def first_n_natural_number(number):
+    total = 0
+    for n in range(number):
+        total += (n + 1)
+    print(f'Sum of the First N Natural Numbers: {total}')
+    
+first_n_natural_number(int(input("Enter a Number: ")))
 
 
 
